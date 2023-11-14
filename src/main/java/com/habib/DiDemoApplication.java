@@ -6,6 +6,7 @@ import org.springframework.context.ApplicationContext;
 
 import com.habib.controllers.MyController;
 import com.habib.examplebeans.FakeDataSource;
+import com.habib.examplebeans.FakeJmsBroker;
 
 @SpringBootApplication
 public class DiDemoApplication {
@@ -20,6 +21,9 @@ public class DiDemoApplication {
 		FakeDataSource fakeDataSource = ctx.getBean(FakeDataSource.class);
 		
 		System.out.println(fakeDataSource.getUser());
+		
+		FakeJmsBroker fakeJmsBroker = ctx.getBean(FakeJmsBroker.class);
+		System.out.println(fakeJmsBroker.getUsername());
 	}
 
 }
