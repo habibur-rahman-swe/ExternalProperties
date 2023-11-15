@@ -1,0 +1,36 @@
+#this is a comment
+name: Habib
+
+names:
+  - Jon
+  - Pon
+  - Von
+  
+pound_sign:
+
+book:
+  author: Joe Buck
+  publisher: what is man
+  
+truth: yes
+
+another_truth: True
+
+more_true: true
+
+false: no
+
+string_val: "This  is  it's quote"
+
+colon_string: "my courses are two or three"
+
+include_new_lines:
+  abbcd abdld  
+  dlroe
+  dir
+  dirn
+  
+ignore_newLine:
+  iroenri  ring
+  riengo wirng
+  wornfso
